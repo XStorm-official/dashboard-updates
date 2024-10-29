@@ -1,23 +1,24 @@
 # Dashboard Updates
 
-Ce repository contient les mises à jour et améliorations continues de notre dashboard. Les modifications sont classées par année et mois pour un suivi facile.
+Ce repository contient les mises à jour et améliorations continues du dashboard, organisées par année, mois et version.
 
 ## Structure du Repository
 
-Chaque dossier représente une année, avec des sous-dossiers pour chaque mois. Les mises à jour mensuelles incluent les nouvelles fonctionnalités, correctifs de bugs, et optimisations apportées au dashboard.
+Chaque année possède un dossier, avec des sous-dossiers pour chaque mois. À l'intérieur de chaque mois, les mises à jour sont organisées par versions.
 
 Exemple de structure :
 
 ```
 📁 2024/
    ├── 📁 10/
+   │   ├── 📄 v2.6.2.md
    ├── 📁 12/
    └── 📁 11/
 ```
 
 ## Contenu de chaque dossier
 
-Chaque sous-dossier mensuel contient un fichier `README.md` documentant les mises à jour spécifiques de ce mois. Voici les informations types que vous y trouverez :
+Chaque sous-dossier mensuel contient un fichier `vX.X.X.md` documentant les mises à jour spécifiques de la version. Voici les informations types que vous y trouverez :
 
 - **Date** : Date de la mise à jour
 - **Description** : Brève explication de la mise à jour
